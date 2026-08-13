@@ -264,6 +264,10 @@ a { color: inherit; text-decoration: none; }
   white-space: nowrap;
 }
 
+.price-card__badge--alt {
+  background: #2e7d32; /* зелёный для «Выгодный» */
+}
+
 .price-card__name { font-size: 1.1rem; font-weight: 600; color: var(--text-muted); margin-bottom: 14px; }
 
 .price-card__cost { margin-bottom: 24px; }
