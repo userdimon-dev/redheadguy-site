@@ -620,7 +620,8 @@ a { color: inherit; text-decoration: none; }
   .nav.nav--open { display: flex; }
   .nav-toggle { display: flex; }
   .header__actions .btn--ghost,
-  .header__actions .btn--telegram { display: none; }
+  .header__actions .btn--telegram,
+  .header__actions .btn--primary { display: none; }
   .features__grid { grid-template-columns: 1fr; }
   .download__grid { grid-template-columns: repeat(2, 1fr); }
   .links__grid { grid-template-columns: 1fr; }
