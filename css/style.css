@@ -582,6 +582,9 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.6;
 }
 
+/* Списки внутри документов, где пункты содержат эмодзи-маркеры */
+.doc__section ul li::marker { content: none; }
+
 /* ---------- Адаптивность ---------- */
 @media (max-width: 992px) {
   .features__grid { grid-template-columns: repeat(2, 1fr); }
